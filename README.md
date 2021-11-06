@@ -17,6 +17,8 @@ For example:
 /set_reactions —channel_id @awesome_channel —reactions 👍 ❤ 😡
 ```
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/obliviouzx/liker-bot)
+
 ## Build liker from sources
 To build your own version of Liker:
 
