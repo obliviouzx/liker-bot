@@ -1,0 +1,43 @@
+{
+    "name": "Telegram Files Rename Bot",
+    "description": "A Very Simple Telegram Files Rename Bot by @AbirHasan2005",
+    "keywords": [
+        "telegram",
+        "files",
+        "rename",
+        "bot"
+    ],
+    "repository": "https://github.com/AbirHasan2005/Rename-Bot",
+    "website": "https://abirhasan.wtf",
+    "success_url": "https://t.me/AH_RenameBot",
+    "env": {
+        "hash_bytes": {
+            
+        },
+        "bot_token": {
+            
+        },
+        "use_telegram_user_api": {
+            "description": "Get this from @BotFather XD"
+        },
+        "telegram_api_session": {
+            "description": "Get this from @BotFather XD"
+        },
+        "telegram_api_id": {
+            "description": "Get this from @BotFather XD"
+          
+         },
+        "telegram_api_hash": {
+            "description": "Get this from @BotFather XD"         
+         },
+        "admin_password": {
+            "description": "Get this from @BotFather XD"   
+          
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
