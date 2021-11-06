@@ -104,10 +104,4 @@
         {
             "url": "heroku/python"
         }
-    ],
-    "formation": {
-            "quantity": 1,
-            "size": "free"
-        }
-    }
-}
+    ]
