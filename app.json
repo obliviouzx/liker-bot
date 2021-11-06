@@ -99,7 +99,7 @@
             "required": "True"
         }
     },
-    "stack": "container",
+    "stack": "heroku-20",
     "formation": {
         "worker": {
             "quantity": 1,
