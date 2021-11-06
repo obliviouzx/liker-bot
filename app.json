@@ -101,7 +101,7 @@
     },
     "stack": "heroku-20",
     "formation": {
-        "worker": {
+        "web": {
             "quantity": 1,
             "size": "free"
         }
