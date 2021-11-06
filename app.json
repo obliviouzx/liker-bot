@@ -1,39 +1,105 @@
 {
-    "name": "Telegram Files Rename Bot",
-    "description": "A Very Simple Telegram Files Rename Bot by @AbirHasan2005",
-    "keywords": [
-        "telegram",
-        "files",
-        "rename",
-        "bot"
-    ],
-    "repository": "https://github.com/AbirHasan2005/Rename-Bot",
-    "website": "https://abirhasan.wtf",
-    "success_url": "https://t.me/AH_RenameBot",
+    "name": "liker345bot",
+    "repository": "https://github.com/obliviouzx/liker-bot",
     "env": {
-        "hash_bytes": {
-            
+        "HASH_SALT": {
+            "description": "",
+            "required": "True"
         },
-        "bot_token": {
-            
+        "HASH_BYTES": {
+            "description": "",
+            "required": "True"
         },
-        "use_telegram_user_api": {
-            "description": "Get this from @BotFather XD"
+        "BOT_TOKEN": {
+            "description": "",
+            "required": "True"
         },
-        "telegram_api_session": {
-            "description": "Get this from @BotFather XD"
+        "USE_TELEGRAM_USER_API": {
+            "description": "",
+            "required": "True"
         },
-        "telegram_api_id": {
-            "description": "Get this from @BotFather XD"
-          
-         },
-        "telegram_api_hash": {
-            "description": "Get this from @BotFather XD"         
-         },
-        "admin_password": {
-            "description": "Get this from @BotFather XD"   
-          
-    ],
+        "TELEGRAM_API_SESSION": {
+            "description": "",
+            "required": "True"
+        },
+        "TELEGRAM_API_ID": {
+            "description": "",
+            "required": "True"
+        },
+        "TELEGRAM_API_HASH": {
+            "description": "",
+            "required": "True"
+        },
+        "ADMIN_PASSWORD": {
+            "description": "",
+            "required": "True"
+        },
+        "REMEMBERED_PASSWORDS": {
+            "description": "",
+            "required": "True"
+        },
+        "ENABLE_ONLY_FOR": {
+            "description": "",
+            "required": "True"
+        },
+        "LAST_REACTIONS": {
+            "description": "",
+            "required": "True"
+        },
+        "LAST_REACTIONS_SAVE_SECONDS": {
+            "description": "",
+            "required": "True"
+        },
+        "CHANNEL_RATE_PER_MINUTE": {
+            "description": "",
+            "required": "True"
+        },
+        "CHANNEL_RATE_MIN_SECONDS": {
+            "description": "",
+            "required": "True"
+        },
+        "GLOBAL_RATE_PER_SECOND": {
+            "description": "",
+            "required": "True"
+        },
+        "REPLY_MARKUP_TRAIL": {
+            "description": "",
+            "required": "True"
+        },
+        "COMMENT_TRAIL": {
+            "description": "",
+            "required": "True"
+        },
+        "CHANNEL_STATE_SAVE_SECONDS": {
+            "description": "",
+            "required": "True"
+        },
+        "RESPONSE_START": {
+            "description": "",
+            "required": "True"
+        },
+        "RESPONSE_HELP": {
+            "description": "",
+            "required": "True"
+        },
+        "RESPONSE_REACTION_ADDED": {
+            "description": "",
+            "required": "True"
+        },
+        "RESPONSE_REACTION_REMOVED": {
+            "description": "",
+            "required": "True"
+        },
+        "RESPONSE_COMMAND_PARSER_ERROR": {
+            "description": "",
+            "required": "True"
+        },
+        "RESPONSE_UNKNOWN_COMMAND": {
+            "description": "",
+            "required": "True"
+        }
+    },
+    "stack": "container",
     "formation": {
         "worker": {
             "quantity": 1,
